@@ -43,3 +43,5 @@ function editDistance(s1, s2) {
   }
   return costs[s2.length];
 }
+
+console.log(similarity('Stack Overflow', 'Stack Ovrflow') * 100);
