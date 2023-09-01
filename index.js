@@ -4,7 +4,7 @@ import './style.css';
 // Write Javascript code!
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
-//https://stackoverflow.com/questions/10473745/compare-strings-javascript-return-of-likely
+
 function similarity(s1, s2) {
   var longer = s1;
   var shorter = s2;
