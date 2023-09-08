@@ -44,4 +44,8 @@ function editDistance(s1, s2) {
   return costs[s2.length];
 }
 
-console.log(similarity('Stack Overflow', 'Stack Ovrfow') * 100);
+let txt1 =
+  'GBD 2017 Oral Disorders Collaborators; Bernabe, E., Marcenes, W., Hernandez, C. R., Bailey, J., Abreu, L. G., Alipour, V. et al. (2020) Global, Regional, and National Levels and Trends in Burden of Oral Conditions from 1990 to 2017: A Systematic Analysis for the Global Burden of Disease 2017 Study. J Dent Res, 99(4):362–373.';
+let txt2 =
+  'Bernabe, E., Marcenes, W., Hernandez, C. R., Bailey, J., Abreu, L. G. et al.; GBD 2017 Oral Disorders Collaborators. (2020) Global, regional, and national levels and trends in burden of oral conditions from 1990 to 2017: a systematic analysis for the Global Burden of Disease 2017 Study. Journal of Dental Research, 99, 362–373.';
+console.log(similarity(txt1, txt2) * 100);
